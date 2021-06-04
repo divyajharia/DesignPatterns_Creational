@@ -143,11 +143,13 @@
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="DesignPatterns.cpp" />
     <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="Prototype.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="Prototype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

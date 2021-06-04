@@ -74,6 +74,12 @@ ConcreteCreator <<CREATES>> ConcreteProduct
  When complex unrelated objects are needed we use this pattern 
  and also when steps are important 
  
+ ##############################
+ Prototype pattern
+
+It is use full to clone the objects 
+it feels smilar to copy constructur but here we do not know hwich object to clone befor hand 
+ the clone function is implemented in the concrete classes it self 
  
  
  

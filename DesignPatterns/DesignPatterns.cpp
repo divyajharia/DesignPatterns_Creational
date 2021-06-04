@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include"Factory.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    CoffeeMakerFactory coffeeM;
+    Coffee* cup;
+    cup = coffeeM.getCoffee();
+    if(cup)
+    cout << endl << "you have asked for a(n) " << cup->getType() << endl;
+   // std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

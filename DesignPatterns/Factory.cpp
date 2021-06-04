@@ -60,3 +60,19 @@ Coffee* CoffeeMakerFactory::getCoffee()
 	}
 	return nullptr;
 }
+
+//////////////////////////////////////////////////////
+
+//INT Main()
+//#include <iostream>
+//#include"Factory.h"
+//
+//int main()
+//{
+//	CoffeeMakerFactory coffeeM;
+//	Coffee* cup;
+//	cup = coffeeM.getCoffee();
+//	if (cup)
+//		cout << endl << "you have asked for a(n) " << cup->getType() << endl;
+//	// std::cout << "Hello World!\n";
+//}

@@ -68,5 +68,12 @@ ConcreteProduct Class : (These all comprises of the classes of different types o
 ConcreteCreator <<CREATES>> ConcreteProduct
  ///////////////////////////////////////////////
  
+ ###############################
+ Builder Pattern
+ 
+ When complex unrelated objects are needed we use this pattern 
+ and also when steps are important 
+ 
+ 
  
  

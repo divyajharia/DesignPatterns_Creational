@@ -81,5 +81,15 @@ It is use full to clone the objects
 it feels smilar to copy constructur but here we do not know hwich object to clone befor hand 
  the clone function is implemented in the concrete classes it self 
  
+ ################################
+ Singleton
+ 
+ When we need a Global access to an object 
+ But one and only one instance of it. 
+ 
+ is it good or Bad
+ Do Lazy initialization - initialize at the start of the program 
+ 
+ Using critical section-> but then its slow
  
  
